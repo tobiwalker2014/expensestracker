@@ -10,7 +10,7 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-icons": "^5.0.1",
-		"react-scripts": "5.0.1",
+		"react-scripts": "^5.0.1",
 		"uuid": "^9.0.1"
 	},
 	"scripts": {
@@ -21,7 +21,9 @@
 	},
 	"eslintConfig": {
 		"extends": "react-app",
-    "plugins": ["jsx-a11y"]
+		"plugins": [
+			"jsx-a11y"
+		]
 	},
 	"browserslist": {
 		"production": [

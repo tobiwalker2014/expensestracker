@@ -14,7 +14,7 @@ const Budget = () => {
         // The 'alert alert-secondary' classes are used for styling, typically with Bootstrap for a muted alert box
         <div className='alert alert-secondary'>
             {/* Display the budget value dynamically, embedding the 'budget' variable in the JSX */}
-            <span>Budget: £{budget}</span>
+            <span>Budget: ${budget}</span>
         </div>
     );
 };

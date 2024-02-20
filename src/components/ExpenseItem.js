@@ -26,7 +26,7 @@ const ExpenseItem = (props) => {
             <div>
                 {/* Display the cost of the expense with a badge for styling */}
                 <span className='badge badge-primary badge-pill mr-3'>
-                    £{props.cost}
+                    ${props.cost}
                 </span>
                 {/* TiDelete icon used as a button for deleting the expense item */}
                 {/* When clicked, it calls handleDeleteExpense to delete the item */}

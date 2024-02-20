@@ -17,7 +17,7 @@ const ExpenseTotal = () => {
     // The 'alert alert-primary' classes are likely from a CSS framework like Bootstrap for styling
     return (
         <div className='alert alert-primary'>
-            <span>Spent so far: £{totalExpenses}</span> {/* Display the total expenses */}
+            <span>Spent so far: ${totalExpenses}</span> {/* Display the total expenses */}
         </div>
     );
 };

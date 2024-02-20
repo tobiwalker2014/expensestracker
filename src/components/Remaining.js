@@ -17,7 +17,7 @@ const Remaining = () => {
 	// Render the remaining budget
 	return (
 		<div className={`alert ${alertType}`}>
-			<span>Remaining: £{budget - totalExpenses}</span>
+			<span>Remaining: ${budget - totalExpenses}</span>
 		</div>
 	);
 };
